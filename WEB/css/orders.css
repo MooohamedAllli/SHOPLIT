@@ -1,0 +1,53 @@
+.Order{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.OrderCard{
+    width: 1100px;
+    height: 162px;
+    background-color: rgb(220, 252, 249);
+}
+.OrderTable{
+    text-align: left;
+    width: 100%;
+    border: 1px solid b;
+    font-size: 14px;
+    border: 1px solid grey;
+}
+.OrderTable th{
+    height: 20px;
+}
+.CustomerTable{
+    text-align: left;
+    width: 100%;
+    border: 1px solid b;
+    font-size: 14px;
+    border: 1px solid grey;
+    height: 90px;
+}
+.DelivTable{
+    text-align: left;
+    width: 100%;
+    border: 1px solid b;
+    font-size: 14px;
+    border: 1px solid grey;
+}
+.DelivTable th{
+    height: 20px;
+}
+.OrderButton{
+    background: rgb(1, 44, 44);
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.OrderButton:hover{
+    background: rgb(6, 141, 141);
+    cursor: pointer;
+}
+

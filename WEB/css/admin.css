@@ -1,0 +1,95 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    border-bottom:2px solid #476e5f;
+    width: 100%;
+    height: 70px;
+	margin :0;
+	padding :0;
+    display: flex;
+    justify-content: space-between;
+}
+.logout{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.logout input{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(5, 59, 50);
+    border: #476e5f ;
+    font-size: 15px;
+    color: white;
+}
+.logout input:hover{
+    cursor: pointer;
+    background-color: #476e5f;
+    color: white;
+}
+.logo img{
+    margin-left: 500px;
+    border-radius: 50%;
+}
+.Search form{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10px;
+}
+.Search input[type="text"]{
+    margin-left: 350px;
+    background-color: none;
+    border: none;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 10px;
+}
+.Search input[type="submit"]{
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: none;
+    border: none;
+    border: 1px solid gray;
+}
+.admin-cards{
+    width: 80%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 200px;
+    height: 80%;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card .image{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+.admin-cards a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #050807;
+}
+.admin-cards a:hover {
+    color: #8427ff;
+}
+.card .title{
+    margin-top: 10px;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    font-weight: bold;
+}
+

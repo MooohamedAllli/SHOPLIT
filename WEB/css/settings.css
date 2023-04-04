@@ -1,0 +1,35 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    padding: 10px;
+}
+.SettingCard{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-bottom: 1px solid #476e5f;
+    padding: 20px;
+}
+.SettingTitle{
+    width: 20%;
+    height: auto;
+    padding: 5px;
+}
+.SettingBox{
+    width: 70%;
+    height: auto;
+}
+.SettingBox input[type='text']{
+    border: none;
+    padding: 5px;
+}
+.SettingBox input[type='submit']{
+    background-color: rgb(34, 150, 5);
+    border: none;
+    padding: 5px;
+    width: 150px;
+    color: white;
+    font-weight: 600;
+}
+.SettingBox input[type='submit']:hover{
+    background-color: rgb(83, 185, 58);
+}

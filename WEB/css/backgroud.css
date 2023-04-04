@@ -1,0 +1,26 @@
+body.hide-scrolling{
+    overflow-y: hidden;
+}
+body::before{
+    content: ' ';
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-45deg , #d0f0cc , #b2f3a2a1 , #99dff8 , #a5ecc0);
+    background-size: 400% 400%;
+    animation: change 5s ease-in-out infinite;
+    z-index: -1;
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}

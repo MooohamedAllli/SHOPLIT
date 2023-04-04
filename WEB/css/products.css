@@ -1,0 +1,159 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.ShopsHeader{
+    margin: 10px;
+    display: flex;
+    width:auto;
+    height: 40px;
+    justify-content: space-around;
+    border-bottom: 1px solid #476e5f;
+}
+.shop{
+    padding: 5px;
+    text-align: center;
+}
+.shop a{
+    text-decoration: none;
+    color: #476e5f;
+    font-size: 15px;
+    font-weight: 500;
+}
+.shop a:hover{
+    color: chartreuse;
+    transition: 0.5s;
+}
+.Body{
+    display: flex;
+    width: 100% auto;
+    height: auto ;
+}
+.Menu{
+    width: 17%;
+    height: 500px;
+}
+.minHeader{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.searchBar{
+    width: 80%;
+}
+.searchBar form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+.searchBar form input{
+    padding: 5px;
+    background-color: none;
+    border: none;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #26324d;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.searchBar form button{
+    background-color: #26324d;
+    border: none;
+    padding: 5px;
+    width: 10%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.searchBar form button:hover{
+    background-color: #485b88;
+    cursor: pointer;
+}
+a{
+  text-decoration: none;  
+  color: #476e5f;
+}
+.orderBar{
+    width: 20%;
+    font-size: large;
+    font-weight: bold;
+}
+.ProductsList{
+    padding: 10px;
+    width: 80%; 
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Products{
+    padding: 10px;
+    width: 100%; 
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Category{
+    width: 80%;
+    height: auto;
+    padding: 5px;
+}
+.Category a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #476e5f;
+}
+.Category a:hover{
+    color: chartreuse;
+    transition: 0.5s;
+}
+.Product{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #888888;
+    background-color: rgb(233, 249, 255);
+}
+.Product:hover{
+    border-radius: 10px;
+    box-shadow: 8px 5px 4px #888888;
+}
+.Product .title{
+    margin-top: 8px;
+    width: auto;
+    height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 13px;
+}
+.image{
+    width: auto;
+    height: 60%;
+    padding-top: 0px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.Product input[type="submit"]{
+    border: none;
+    background-color: #26324d;
+    color: white;
+    padding: 10px;
+}
+.Product input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #4c6daa;
+}
+.buttons{
+    width: auto;
+    position: absolute;
+    bottom: 0px;
+}
+.buttons input{
+    margin-left: 30px;
+}
